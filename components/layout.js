@@ -22,12 +22,12 @@ export default function Layout({children}){
                     
                 </li>
                 <li className={styles.navitem}>
-                    <Link href="/About">
+                    <Link href="/about">
                         <a className={styles.navlink}>About</a>
                     </Link>
                 </li>
                 <li className={styles.navitem}>
-                    <Link href="/Contact">
+                    <Link href="/contact">
                         <a className={styles.navlink}>Contact</a>
                     </Link>   
                 </li>
