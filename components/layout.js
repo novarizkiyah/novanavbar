@@ -22,14 +22,14 @@ export default function Layout({children}){
                     
                 </li>
                 <li className={styles.navitem}>
-                
-                    <a className={styles.navlink}>About</a>
-        
+                    <Link href="/About">
+                        <a className={styles.navlink}>About</a>
+                    </Link>
                 </li>
                 <li className={styles.navitem}>
-            
-                    <a className={styles.navlink}>Contact</a>
-        
+                    <Link href="/Contact">
+                        <a className={styles.navlink}>Contact</a>
+                    </Link>   
                 </li>
             </ul>
             <button className={isOpen === false ? 
